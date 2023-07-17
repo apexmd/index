@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Internal Medicine Milestones Checklist</title>
+  <style>
+    ul {
+      list-style-type: none;
+    }
+    
+    li {
+      margin-bottom: 10px;
+    }
+    
+    .clicked {
+      text-decoration: line-through;
+      color: gray;
+    }
+  </style>
+  <script>
+    function toggleChecklistItem(element) {
+      element.classList.toggle("clicked");
+    }
+  </script>
+</head>
+
+<body>
+  <h1>Internal Medicine Milestones Checklist</h1>
+  <ul>
+    <li onclick="toggleChecklistItem(this)">
+      <h2>Milestone 1: Acquire Basic Knowledge</h2>
+      <p>Plan of Action:</p>
+      <ul>
+        <li onclick="toggleChecklistItem(this)">Complete medical school education.</li>
+        <li onclick="toggleChecklistItem(this)">Participate in Internal Medicine clerkships and rotations.</li>
+        <li onclick="toggleChecklistItem(this)">Attend relevant conferences and workshops.</li>
+        <li onclick="toggleChecklistItem(this)">Study key textbooks and references.</li>
+      </ul>
+    </li>
+    <li onclick="toggleChecklistItem(this)">
+      <h2>Milestone 2: Develop Clinical Skills</h2>
+      <p>Plan of Action:</p>
+      <ul>
+        <li onclick="toggleChecklistItem(this)">Participate in clinical rotations in Internal Medicine.</li>
+        <li onclick="toggleChecklistItem(this)">Practice taking detailed patient histories.</li>
+        <li onclick="toggleChecklistItem(this)">Perform thorough physical examinations.</li>
+        <li onclick="toggleChecklistItem(this)">Learn to interpret lab results and diagnostic tests.</li>
+      </ul>
+    </li>
+    <li onclick="toggleChecklistItem(this)">
+      <h2>Milestone 3: Enhance Decision-Making Abilities</h2>
+      <p>Plan of Action:</p>
+      <ul>
+        <li onclick="toggleChecklistItem(this)">Work closely with experienced Internal Medicine physicians.</li>
+        <li onclick="toggleChecklistItem(this)">Participate in case discussions and clinical rounds.</li>
+        <li onclick="toggleChecklistItem(this)">Analyze complex patient cases and develop appropriate management plans.</li>
+        <li onclick="toggleChecklistItem(this)">Review evidence-based guidelines and apply them to clinical practice.</li>
+      </ul>
+    </li>
+    <li onclick="toggleChecklistItem(this)">
+      <h2>Milestone 4: Demonstrate Proficiency in Patient Care</h2>
+      <p>Plan of Action:</p>
+      <ul>
+        <li onclick="toggleChecklistItem(this)">Provide comprehensive care for a variety of Internal Medicine patients.</li>
+        <li onclick="toggleChecklistItem(this)">Develop effective communication skills with patients and their families.</li>
+        <li onclick="toggleChecklistItem(this)">Manage acute and chronic medical conditions.</li>
+        <li onclick="toggleChecklistItem(this)">Ensure continuity of care and appropriate follow-up.</li>
+      </ul>
+    </li>
+    <li onclick="toggleChecklistItem(this)">
+      <h2>Milestone 5: Display Professionalism and Ethical Conduct</h2>
+      <p>Plan of Action:</p>
+      <ul>
+        <li onclick="toggleChecklistItem(this)">Adhere to professional standards and codes of conduct.</li>
+        <li onclick="toggleChecklistItem(this)">Show respect and compassion towards patients.</li>
+        <li onclick="toggleChecklistItem(this)">Maintain patient confidentiality and privacy.</li>
+        <li onclick="toggleChecklistItem(this)">Continuously engage in professional development and self-reflection.</li>
+      </ul>
+    </li>
+    <li onclick="toggleChecklistItem(this)">
+      <h2>Milestone 6: Practice Evidence-Based Medicine</h2>
+      <p>Plan of Action:</p>
+      <ul>
+        <li onclick="toggleChecklistItem(this)">Stay updated with the latest research and medical literature.</li>
+        <li onclick="toggleChecklistItem(this)">Critically evaluate medical studies and evidence.</li>
+        <li onclick="toggleChecklistItem(this)">Incorporate evidence-based practices into patient care.</li>
+        <li onclick="toggleChecklistItem(this)">Participate in clinical research or quality improvement projects.</li>
+      </ul>
+    </li>
+  </ul>
+</body>
+
+</html>
